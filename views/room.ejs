@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Zoom Clone</title>
    <script>
       const ROOM_ID = "<%= roomId %>"
    </script>
-
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
    <script defer src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
@@ -22,11 +20,8 @@
    <link rel="stylesheet" href="style.css">
    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
    <script src="script.js" defer></script>
-
 </head>
-
 <body>
-
    <div class="main">
       <div class="main__left">
          <div class="main__videos">
@@ -71,9 +66,7 @@
          </div>
          <div class="main__chat_window">
             <ul class="messages">
-
             </ul>
-
          </div>
          <div class="main__message_container">
             <input id="chat_message" type="text" placeholder="Type message here...">
@@ -81,5 +74,4 @@
       </div>
    </div>
 </body>
-
 </html>
