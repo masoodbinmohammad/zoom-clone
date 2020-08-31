@@ -1,2 +1,4 @@
-# zoom-clone
-A zoom-clone application using socket.io and peerjs
+### zoom-clone
+A sample zoom-clone application using socket.io and peerjs
+
+
